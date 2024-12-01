@@ -72,6 +72,14 @@ ol {
   height: 107px;
 }
 
+
+.content__card-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin: 2px;
+}
+
 .content__card-link:not(:last-child) {
   margin-bottom: 30px;
 
@@ -85,13 +93,14 @@ ol {
   text-underline-offset: 1px;
 }
 
-.content__card-link {
-  display: block;
-  text-decoration: none;
-  color: #fff;
-  margin: 2px;
+.content_card-link:focus {
+  outline: none;
 }
 
+.content_card-link:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
 
 .content__card-link_current {
   background-color: #545050;
@@ -289,7 +298,7 @@ color: #545050;
   outline: none;
 }
 
-.button:focus-visible {
+.button:has(:focus-visible) {
   outline-offset: 1px;
   outline: 1px solid white;
 }
