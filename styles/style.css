@@ -183,6 +183,10 @@ color: #545050;
   text-align: left; 
 }
 
+.search-form__fieldset-title {
+  margin-bottom: 5px;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -248,7 +252,6 @@ color: #545050;
   background-color: transparent;
   color: white;
   border-style: solid none;
-  padding-top: 5px;
   width: 225px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
