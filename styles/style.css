@@ -72,6 +72,10 @@ ol {
   height: 107px;
 }
 
+.content__list-item:not(:last-child) {
+  margin-bottom: 30px;
+
+}
 
 .content__card-link {
   display: block;
@@ -80,10 +84,6 @@ ol {
   margin: 2px;
 }
 
-.content__card-link:not(:last-child) {
-  margin-bottom: 30px;
-
-}
 .content__card-link:active {
   background-color: #545050;
 }
