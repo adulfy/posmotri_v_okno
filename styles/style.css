@@ -93,11 +93,11 @@ ol {
   text-underline-offset: 1px;
 }
 
-.content_card-link:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content_card-link:has(:focus-visible) {
+.content__card-link:focus-visible {
   outline: 1px solid white;
   outline-offset: 1px;
 }
@@ -107,7 +107,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: 'Fira Sans Condensed' , sans-serif;
+  font-family: 'Oswald' , sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
@@ -298,7 +298,7 @@ color: #545050;
   outline: none;
 }
 
-.button:has(:focus-visible) {
+.button:focus-visible {
   outline-offset: 1px;
   outline: 1px solid white;
 }
